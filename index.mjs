@@ -1,4 +1,0 @@
-// Copyright (c) 2025 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import s from"https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-base-assert-is-almost-equal@esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-base-assert-is-almost-equal@esm/index.mjs";import{isPrimitive as t}from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-number@v0.2.2-esm/index.mjs";import m from"https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-assert-is-almost-equal@esm/index.mjs";import i from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-complex-like@v0.2.2-esm/index.mjs";function r(r,l,d){return r===l||(t(r)&&t(l)?m(r,l,d):!(!i(r)||!i(l))&&(4===r.BYTES_PER_ELEMENT&&4===l.BYTES_PER_ELEMENT?s(r,l,d):e(r,l,d)))}export{r as default};
-//# sourceMappingURL=index.mjs.map
