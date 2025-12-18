@@ -39,8 +39,7 @@
   "dependencies": {
     "@stdlib/assert-is-complex-like": "^0.2.2",
     "@stdlib/assert-is-number": "^0.2.2",
-    "@stdlib/complex-float32-base-assert-is-almost-equal": "github:stdlib-js/complex-float32-base-assert-is-almost-equal#main",
-    "@stdlib/complex-float64-base-assert-is-almost-equal": "github:stdlib-js/complex-float64-base-assert-is-almost-equal#main",
+    "@stdlib/complex-base-assert-is-almost-equal": "github:stdlib-js/complex-base-assert-is-almost-equal#main",
     "@stdlib/number-float64-base-assert-is-almost-equal": "github:stdlib-js/number-float64-base-assert-is-almost-equal#main"
   },
   "devDependencies": {
