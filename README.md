@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isAlmostEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-equal@deno/mod.js';
+import isAlmostEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-equal@v0.1.0-deno/mod.js';
 ```
 
 #### isAlmostEqual( a, b, maxULP )
@@ -120,7 +120,7 @@ bool = isAlmostEqual( z1, z2, 0 );
 ```javascript
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@deno/mod.js';
 import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-ctor@deno/mod.js';
-import isAlmostEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-equal@deno/mod.js';
+import isAlmostEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-equal@v0.1.0-deno/mod.js';
 
 console.log( isAlmostEqual( true, true, 0 ) );
 // => true
