@@ -40,7 +40,8 @@
     "@stdlib/assert-is-complex-like": "^0.2.2",
     "@stdlib/assert-is-number": "^0.2.2",
     "@stdlib/complex-base-assert-is-almost-equal": "github:stdlib-js/complex-base-assert-is-almost-equal#main",
-    "@stdlib/number-float64-base-assert-is-almost-equal": "^0.1.0"
+    "@stdlib/number-float64-base-assert-is-almost-equal": "^0.1.0",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.2.2",
