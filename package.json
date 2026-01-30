@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-almost-equal",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Test if two arguments are approximately equal within a specified number of ULPs (units in the last place).",
   "license": "Apache-2.0",
   "author": {
@@ -40,13 +40,13 @@
     "@stdlib/assert-is-complex-like": "^0.2.2",
     "@stdlib/assert-is-number": "^0.2.2",
     "@stdlib/complex-base-assert-is-almost-equal": "github:stdlib-js/complex-base-assert-is-almost-equal#main",
-    "@stdlib/number-float64-base-assert-is-almost-equal": "github:stdlib-js/number-float64-base-assert-is-almost-equal#main"
+    "@stdlib/number-float64-base-assert-is-almost-equal": "^0.1.0"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.2.2",
     "@stdlib/boolean-ctor": "^0.2.2",
-    "@stdlib/complex-float32-ctor": "^0.0.2",
-    "@stdlib/complex-float64-ctor": "^0.0.3",
+    "@stdlib/complex-float32-ctor": "^0.1.0",
+    "@stdlib/complex-float64-ctor": "^0.1.0",
     "@stdlib/constants-float32-eps": "^0.2.2",
     "@stdlib/constants-float64-eps": "^0.2.2",
     "@stdlib/number-ctor": "^0.2.2",
