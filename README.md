@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isAlmostEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-equal@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-almost-equal/tags). For example,
+
+```javascript
 import isAlmostEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-equal@v0.1.1-deno/mod.js';
 ```
 
@@ -120,7 +125,7 @@ bool = isAlmostEqual( z1, z2, 0 );
 ```javascript
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@deno/mod.js';
 import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-ctor@deno/mod.js';
-import isAlmostEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-equal@v0.1.1-deno/mod.js';
+import isAlmostEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-equal@deno/mod.js';
 
 console.log( isAlmostEqual( true, true, 0 ) );
 // => true
