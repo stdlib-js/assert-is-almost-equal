@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isAlmostEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-equal@esm/index.mjs';
+import isAlmostEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-equal@v0.1.1-esm/index.mjs';
 ```
 
 #### isAlmostEqual( a, b, maxULP )
@@ -125,7 +125,7 @@ bool = isAlmostEqual( z1, z2, 0 );
 
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@esm/index.mjs';
 import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-ctor@esm/index.mjs';
-import isAlmostEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-equal@esm/index.mjs';
+import isAlmostEqual from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-equal@v0.1.1-esm/index.mjs';
 
 console.log( isAlmostEqual( true, true, 0 ) );
 // => true
